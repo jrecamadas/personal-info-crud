@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "extends": [
+        "airbnb-base",
+        "plugin:vue/recommended"
+    ],
+    "settings": {
+        "import/core-modules": [
+            "@components/form",
+            "@common/mixin",
+            "@components/page-header.vue",
+            "@components/page-content.vue",
+            "@components/datatable.vue",
+            "@components/select2.vue",
+            "@common/model",
+            "@common/resource"
+        ],
+        "import/resolver": {
+            "webpack": {
+                "config": "node_modules/laravel-mix/setup/webpack.config.js"
+            }
+        }
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "vue/html-indent": [
+            "error",
+            4
+        ],
+        "import/no-extraneous-dependencies": [
+            "error", {
+                "devDependencies": true
+            }
+        ]
+    }
+}

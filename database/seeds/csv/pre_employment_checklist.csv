@@ -1,0 +1,21 @@
+Group,Document,Description
+A,Original Community Tax Certificate (Cedula),""
+A,Original Copy of NBI Clearance,""
+A,Pre-Employment Medical Result,""
+A,"BIR Form 2316 from the Previous Employer, if applicable",""
+A,Photocopy of NSO Certified Birth Certificate,""
+A,Photocopy of Dependent's Birth Certificate,""
+A,"Marriage Certificate, if applicable",""
+B,Contract Offer Letter,""
+B,Company Email Account,Will be checked once company email account field is already has a value.
+B,Slack Invitation,Will be checked once HR/Admin will select Yes/No from the question Already sent Slack Invite?
+B,Zoom,Will be checked once HR/Admin will select Yes/No from the question Already sent Zoom Invite?
+B,"Equipment Check-Out Document (Laptop, Headset, Mouse)",""
+B,Confidentiality Form and Non-Solicitation Agreement,""
+B,TSheets Invitation,""
+B,BPI ATM Application Form and Account Number,Will only be checked once the employee has already inputted his/her payroll account number.
+C,Photocopy of SSS E1/SSS ID/Printout of Online Static Information (1pc),""
+C,PhilHealth Form (PMFR) w/MDR (if applicable),""
+C,Pag-Ibig Online Registration / Pag-Ibig ID/Printout,""
+C,BIR Form 1902 or 2305,""
+C,Certificate of Employment,""

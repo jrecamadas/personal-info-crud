@@ -1,0 +1,8 @@
+id,name,is_enabled,leave_credit_type
+1, "Vacation Leave", 1, 1
+2, "Sick Leave", 1, 1
+3, "Emergency Leave", 1, 1
+4, "Paternity Leave", 1, 2
+5, "Maternity Leave", 1, 3
+6, "Solo Parent Leave", 1, 4
+7, "Special Leave for Women", 1, 5

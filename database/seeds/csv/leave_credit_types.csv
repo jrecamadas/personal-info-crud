@@ -1,0 +1,6 @@
+id,name,limit
+1, "PTO", 10
+2, "Paternity", 7
+3, "Maternity", 105
+4, "Solo Parent", 7
+5, "Special Leave for Women", 40

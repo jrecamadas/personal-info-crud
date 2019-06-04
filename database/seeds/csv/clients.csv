@@ -1,0 +1,30 @@
+"id","company","is_high_growth_client","contract_signed","initial_deposit","start_guide","first_week_check_up","team_emails_sent","first_month_check_up","status","location","timezone","notes","created_at","updated_at","deleted_at"
+"3","Stackify","1","1","1","1","1","1","1","0","8900 State line #100, Leawood, KS 66206","Central",\N,"2018-11-14 12:40:54","2019-01-18 10:56:51",\N
+"4","Test Client One","1","1","1","1","0","0","0","0",\N,\N,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere dolor diam, vitae placerat nunc commodo id. Cras at ullamcorper nibh. Nulla mauris quam, malesuada fermentum urna id, molestie auctor sapien. Ut condimentum nulla ipsum, nec dignissim nulla laoreet et. Donec sollicitudin nisi non urna fringilla, vel condimentum ex venenatis. Etiam convallis semper justo eu viverra. Vivamus eget elit lorem. Nunc et ex eu massa lobortis semper quis sit amet tellus.","2018-11-14 16:20:29","2018-11-14 16:48:50","2018-11-14 16:48:50"
+"5","Test","0","0","0","0","0","0","0","1",\N,\N,\N,"2018-11-26 23:27:25","2018-11-26 23:27:42","2018-11-26 23:27:42"
+"6","GigaBook","1","1","1","1","1","1","1","0",\N,"Central",\N,"2018-11-27 21:45:51","2019-01-21 12:06:22",\N
+"7","Project One","0","0","0","0","0","0","0","0",\N,\N,\N,"2018-11-29 14:04:10","2018-11-29 16:10:30","2018-11-29 16:10:30"
+"8","OneHQ","0","1","1","1","1","1","1","0","11460 Tomahawk Creek Parkway, Suite 130 Leawood, KS 66211","Central",\N,"2018-12-01 10:39:19","2019-01-18 11:17:42",\N
+"9","H3","0","1","1","1","1","1","1","0","9119 E 89th St, Kansas City, MO 64138","Central",\N,"2018-12-18 11:01:31","2019-01-21 12:33:26",\N
+"10","Homebase","0","1","1","1","1","1","1","0","213 Delware St. Apt 103, Kansas City, MO 64105","Central","https://homebase.ai/","2019-01-18 12:06:26","2019-02-06 11:22:06",\N
+"11","Urban Necessities","0","1","1","1","1","1","1","0","3200 S Las Vegas Blvd #2126, Las Vegas, NV 89109","Mountain","https://urbannecessities.com/","2019-01-18 12:12:34","2019-01-18 12:24:13",\N
+"12","Dealer Teamwork 1","1","1","1","1","1","1","1","0","7500 Flying Cloud Dr., Eden Prairie, MN 55344","GMT -5",\N,"2019-01-18 12:32:03","2019-01-18 12:32:17",\N
+"13","Dealer Teamwork 2","1","1","1","1","1","1","1","0","7500 Flying Cloud Dr., Eden Prairie, MN 55344","GMT -5",\N,"2019-01-18 13:18:18","2019-01-18 13:18:29",\N
+"14","LaborChart","0","1","1","1","1","1","1","0","1510 Walnut St. Kansas City, MO 64108","Central","Mobile app development:  notification, messaging, personnel tracking
+Andoid and iOS","2019-01-18 13:24:54","2019-01-18 13:25:36",\N
+"15","Wicket","1","1","1","1","1","1","1","0","12022 Blue Valley Parkway, Overland Park, KS 66213","Central",\N,"2019-01-18 13:31:42","2019-01-18 13:32:03",\N
+"16","Screen Steps","0","1","1","1","1","1","1","0","PO Box 801 McLean, VA 22101","Eastern",\N,"2019-01-18 13:38:06","2019-01-18 13:38:31",\N
+"17","Initech","1","1","1","1","1","1","1","0","310 SW Main St., Lee's Summit, MO 64063","Central",\N,"2019-01-18 13:42:30","2019-01-18 13:43:00",\N
+"18","Atonix","1","1","1","1","1","1","1","0","11401 Lamar Ave, Overland Park, KS 66211","Central",\N,"2019-01-18 13:57:55","2019-01-21 12:08:03",\N
+"19","DivvyHQ","0","1","1","1","1","1","1","0","117 W 20th St Suite 202, KC, MO 64108","Central",\N,"2019-01-18 14:09:03","2019-01-18 14:09:30",\N
+"20","Marknology","0","1","1","1","1","1","1","0","2601 Madison Avenue Suite A Kansas City MO 64108","Central",\N,"2019-01-18 14:30:04","2019-01-21 12:01:51",\N
+"21","Companion Protect","0","1","1","1","1","1","1","0","10950 El Monte St, Leawood, KS 66211","Central",\N,"2019-01-18 14:50:20","2019-01-18 14:50:39",\N
+"22","Stenovate","0","1","1","1","1","1","1","0","811 Grand Boulevard, Apt 302, Kansas City, MO 64106","Central",\N,"2019-01-18 14:55:47","2019-01-18 14:56:05",\N
+"23","Anywhere.com","0","1","1","1","1","1","1","0","3033 Franklin Canyon Drive, Beverly Hills, CA 90210",\N,\N,"2019-01-18 14:59:54","2019-01-18 15:00:16",\N
+"24","League Ally","0","1","1","1","1","1","1","0","2020 Baltimore Ave Suite B50 Kansas City, MO 64108","Central",\N,"2019-01-18 16:19:10","2019-01-21 12:09:04",\N
+"25","Virtual Summits LLC","0","1","1","1","1","1","0","0",\N,"Central",\N,"2019-01-18 16:22:05","2019-01-18 16:22:42",\N
+"26","CitySmart","0","1","1","1","0","1","0","0","1828 Walnut Street Floor 3 Kansas City MO 64108","Central",\N,"2019-01-18 16:24:47","2019-01-18 16:25:06",\N
+"27","Flight Sched Pro","0","1","1","1","0","1","0","0","Overland, KS","Central Time Zone",\N,"2019-02-06 11:21:48","2019-02-06 11:22:37",\N
+"28","BOLD Marketing LLC","0","1","1","1","0","1","0","0","Cape Girardeau, Missouri","CST (same as Kansas)",\N,"2019-02-11 07:50:50","2019-02-11 07:51:19",\N
+"29","Test Client","0","0","0","0","0","0","0","0",\N,\N,\N,"2019-02-11 13:43:00","2019-02-11 13:43:00",\N
+"30","EmployeeDB","1","1","1","0","0","0","0","0","Cebu City","PHT","Client & projects that belongs here are for testing purposes only.","2019-02-19 15:35:09","2019-02-19 15:36:01",\N

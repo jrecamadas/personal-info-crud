@@ -1,0 +1,127 @@
+.client-feedback {
+    p.message {
+        background-color: #007840;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        letter-spacing: 3px;
+        word-spacing: 1px;
+    }
+
+    p.instructions {
+        text-align: left;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    div.footer {
+        background-color: #26292E;
+        position: fixed;
+        bottom: 0;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    table.feedback {
+        width: 100%;
+        margin-bottom: 200px;
+
+        td:nth-child(2) {
+            background-color: #e2e2e2;
+            border-bottom: 1px solid#c5c5c5;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #efefef;
+        }
+
+        tr:nth-child(even) {
+            border-right: 1px solid #ffffff;
+        }
+
+        tr:nth-child(odd) td:nth-child(2) {
+            background-color: #d4d4d4;
+        }
+
+        td {
+            border: 1px solid #c5c5c5;
+            vertical-align: middle;
+        }
+
+        td.category {
+            background-color: #007840;
+            color: #ffffff;
+            padding: 7px;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        td.rating {
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+            // background-color: #D7D5D5!important;
+        }
+
+        td.question {
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        td textarea {
+            display: block;
+            width: 100%;
+            height: 100px;
+            resize: none;
+            border: 3px solid #f0f0f0;
+            padding: 5px;
+            margin-bottom: 12px;
+            outline-style: none;
+        }
+    }
+
+    button.submit {
+        color: #ffffff;
+        background-color: #007840;
+        border-style: none;
+        font-size: 25px;
+        width: 180px;
+        padding: 0 30px;
+        display: block;
+    }
+
+    button.btn-rating {
+        width: 27px!important;
+        height: 35px!important;
+        padding: 10px;
+        background-color: #D7D5D5!important;
+        background: transparent url('/images/rating-icon-inactive.png') no-repeat scroll center;
+    }
+    button.btn-rating-active {
+        background: transparent url('/images/rating-icon-active.png') no-repeat scroll center;
+    }
+    button.btn-rating-inactive {
+        background: transparent url('/images/rating-icon-inactive.png') no-repeat scroll center;
+    }
+
+    .notifications {
+        top: 11px!important;
+    }
+
+    .vue-notification {
+        background: #2fa54c!important;
+        border-left: 5px solid #1d983b!important;
+    }
+
+    .notification-content {
+        font-size: 16px;
+    }
+}

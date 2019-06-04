@@ -1,0 +1,24 @@
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+// @import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Plugins
+@import '~v-slim-dialog/dist/v-slim-dialog.css';
+@import "~vue-wysiwyg/dist/vueWysiwyg.css";
+@import "~vue-snotify/styles/material";
+
+// Style
+@import 'common';
+@import 'themes/primary';
+@import 'themes/sidebar-black';
+@import 'libs/touchspin/touchspin';
+@import 'libs/datatables-net/datatables';
+@import 'form/steps/progress';
+@import 'apps/projects/kanban-board'; //verified include
+@import 'style';

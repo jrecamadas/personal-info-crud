@@ -1,0 +1,33 @@
+"id","client_id","project_name","project_description","project_url","project_requirement","system_requirement","color","start_date","end_date","status_id","notes","created_at","updated_at","deleted_at"
+"1","7","project one","asd",\N,\N,\N,\N,\N,\N,"1",\N,"2018-11-29 14:06:36","2018-11-29 14:06:36",\N
+"2","3","Stackify - Writer","NA","NA",\N,\N,\N,\N,\N,"4",\N,"2018-12-20 21:13:25","2019-01-18 10:41:59",\N
+"3","3","Stackify- QA Test",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 10:57:22","2019-01-18 11:09:03",\N
+"4","3","Stackify - Heisenbug",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 10:58:32","2019-01-18 10:58:32",\N
+"5","3","Stackify - Secret Agent",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 10:59:21","2019-01-18 11:08:45",\N
+"6","3","Stackify - Monkey Patchers",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:06:16","2019-01-18 11:06:16",\N
+"7","3","Stackify - Meat Popsicles",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:08:37","2019-01-18 11:08:37",\N
+"8","3","Stackify - Ninja",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:12:10","2019-01-18 11:12:10",\N
+"9","3","SRE",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:13:32","2019-01-18 11:13:32",\N
+"10","8","OneHQ",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:19:29","2019-01-18 11:19:29",\N
+"11","9","H3",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:24:53","2019-01-18 11:24:53",\N
+"12","6","GigaBook",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 11:48:07","2019-01-18 11:48:07",\N
+"13","10","Homebase",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 12:09:57","2019-01-18 12:09:57",\N
+"14","11","Urban Necessities",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 12:19:44","2019-01-18 12:19:44",\N
+"15","12","Dealer Teamwork 1",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 13:17:07","2019-01-18 13:17:07",\N
+"16","13","Dealer Teamwork 2",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 13:18:55","2019-01-18 13:18:55",\N
+"17","14","LaborChart",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 13:26:56","2019-01-18 13:26:56",\N
+"18","15","Wicket",\N,"wicket.com",\N,\N,\N,\N,\N,"4",\N,"2019-01-18 13:32:55","2019-01-18 13:32:55",\N
+"19","16","Screen Steps",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 13:39:42","2019-01-18 13:39:42",\N
+"20","17","Initech",\N,\N,\N,\N,\N,\N,\N,"4","React Native app to use Bluetooth LE to communicate with the camera device","2019-01-18 13:44:14","2019-01-18 14:08:11","2019-01-18 14:08:11"
+"21","18","Atonix",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 13:59:37","2019-01-18 13:59:37",\N
+"22","17","Initech",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 14:07:35","2019-01-18 14:07:35",\N
+"23","19","DivvyHQ",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 14:11:04","2019-01-18 14:11:04",\N
+"24","20","Marknology",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 14:38:50","2019-01-18 14:39:35",\N
+"25","21","Companion Protect",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 14:51:29","2019-01-18 14:51:29",\N
+"26","22","Stenovate",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 14:57:01","2019-01-18 14:57:01",\N
+"27","23","Anywhere.com",\N,\N,\N,\N,\N,\N,\N,"1",\N,"2019-01-18 15:21:53","2019-01-18 15:21:53",\N
+"28","24","League Ally",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 16:20:09","2019-01-18 16:20:09",\N
+"29","25","Virtual Summits LLC",\N,\N,\N,\N,\N,\N,\N,"4",\N,"2019-01-18 16:23:15","2019-01-18 16:23:15",\N
+"30","27","Flight Sched Pro","IOS Mobile Development",\N,\N,\N,\N,"2019-02-06",\N,"4",\N,"2019-02-06 11:23:47","2019-02-06 11:23:47",\N
+"31","28","BOLD Marketing LLC",\N,\N,\N,\N,\N,"2019-02-11",\N,"1",\N,"2019-02-11 07:54:06","2019-02-11 07:54:06",\N
+"32","30","EmployeeDB Automated Infrastructure Deployment","Automating Infrastructure and Deployment","https://fullscale.rocks","RDS, S3, Docker for the production server","t2.small EC2 Instance, 30GB Storage, RDS, S3, Docker",\N,"2019-02-19","2019-04-30","4","The goal is to convert the manual deployment and its current infrastructure into new RDS, assets in S3, and Dockerized Container","2019-02-19 15:42:32","2019-02-19 15:42:32",\N

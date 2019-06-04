@@ -1,0 +1,135 @@
+.loading-indicator-container{
+  position: absolute!important;
+  float: left!important;
+  display: inline!important;
+  left: 210px!important;
+  margin-top: 6px;
+}
+.loading-indicator{
+  position: relative;
+  z-index: 2!important;
+}
+.abroad{
+  margin-top: 5px!important;
+}
+.custom-shift {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.custom-shift .time-selection:first-child {
+  margin-right: 10px;
+}
+tr > td.weVal > label{
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  color: #585858;
+}
+.education-actions{
+  font-size: 20px!important;
+  padding-left: 23px!important;
+  :hover{
+    color: #ab2424;
+  }
+}
+.work-experience-actions{
+  font-size: 20px!important;
+  padding-left: 23px!important;
+  :hover{
+    color: #ab2424;
+  }
+}
+.work-experience-buttons-placeholder{
+  margin-left: 0px!important;
+}
+.stacktable{
+  margin-left: 15px!important;
+}
+.proficiency-width{
+  max-width: 150px!important;
+}
+.flex-sm-column-reverse{
+  margin-left: 5px!important;
+  margin-right: 5px!important;
+}
+.skill-item{
+  top: 7px!important;
+  position: relative;
+}
+.custom-control-label.noselect{
+  margin-bottom: 3px!important;
+}
+div > label.custom-control-label::after{
+  left: -23px !important;
+}
+.nav-link.active{
+  font-weight: 600!important;
+}
+.skills-and-proficiencies > .col-lg-6 > span{
+  top: 5px!important;
+  position: relative;
+}
+.skills-and-proficiencies-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  h5 {
+    padding-top: 10px;
+  }
+}
+.skills-and-proficiencies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.address-wrapper {
+  margin: 6px 0;
+  &.flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    input:first-child {
+      margin-right: 5px;
+    }
+    &.link {
+      cursor: pointer;
+    }
+  }
+}
+.this-icon{
+  font-size: 20px!important;
+}
+.skills-box{
+  border: 1px solid #eeeeee;
+}
+.content-row{
+  width: auto;
+  padding-right: 15px;
+  padding-top: 15px!important;
+  margin-bottom: 10px!important;
+}
+.content-placeholder{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 570px!important;
+}
+.content-header-text{
+  font-size: 10pt;
+  font-weight: 400;
+}
+.content-header{
+  padding-top: 15px!important;
+}
+.bottom-border{
+  border-bottom: 1px solid #eeeeee;
+}
+.margin-top{
+  margin-top: 15px;
+}
+.margin-bottom-zero{
+  margin-bottom: 0px!important;
+}
+.padding-bottom{
+  padding-bottom: 25px;
+}
