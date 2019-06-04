@@ -45,7 +45,7 @@
 
 										<td align="center">
 											<!-- <Can I="update" a="personalinfo"> -->
-												<a href="#" class="action-button" title="Edit Personal Info" @click="showEditDialogoue({key: 'create-update-personalinfo', name:'Update Info', info: info.id})">
+												<a href="#" class="action-button" title="Edit Personal Info" @click="showEditDialogoue({key: 'create-update-personalinfo', name:'Update Info', infoId: info.id})">
 													<i class="la la-pencil"></i>
 												</a>
 											<!-- </Can> -->
@@ -82,7 +82,7 @@
 	import DataTable from '@components/datatable.vue';
 
 	import ModalDialog from '@components/modal-dialog.vue';
-	import CreatePersonalInfoModal from '@views/pages/personal-info/_modals/create-info.vue';
+	import CreatePersonalinfoModal from '@views/pages/personal-info/_modals/create-info.vue';
 	import Select2 from '@components/select2.vue';
 
 	// mixins
@@ -206,9 +206,7 @@
 			PageHeader,
 			PageContent,
 			ModalDialog,
-			CreatePersonalInfoModal,
-			'create-personalinfo-modal' : CreatePersonalInfoModal
-
+			CreatePersonalinfoModal,
 		},
 		mixins: [
 			ModalDialogMixin,

@@ -10,7 +10,7 @@
                         <div class="col-sm-12">
                             <div class="form-group" :class="{'has-error': errors.has('name') || hasSSerror }">
                                 <label>Name<span class="error">*</span></label>
-                                <textarea v-validate="'required'" name="name" class="form-control" v-model="personalinfoData.name"></textarea>
+                                <input type="text" v-validate="'required'" name="name" class="form-control" v-model="personalinfoData.name" />
 								<span v-show="errors.has('name')" class="help-block form-error">{{ errors.first('name') }}</span>
                                 <span v-show="hasSSerror" class="help-block form-error">{{ ssError }}</span>
                             </div>
@@ -18,7 +18,7 @@
                         <div class="col-sm-12">
                             <div class="form-group" :class="{'has-error': errors.has('address') || hasSSerror }">
                                 <label>Address<span class="error">*</span></label>
-                                <textarea v-validate="'required'" name="address" class="form-control" v-model="personalinfoData.address"></textarea>
+                                <input type="text" v-validate="'required'" name="address" class="form-control" v-model="personalinfoData.address" />
 								<span v-show="errors.has('address')" class="help-block form-error">{{ errors.first('address') }}</span>
                                 <span v-show="hasSSerror" class="help-block form-error">{{ ssError }}</span>
                             </div>
@@ -26,9 +26,7 @@
 						<div class="col-sm-12">
 							<div class="form-group" :class="{'has-error': errors.has('birthday') || hasSSerror }">
 								<label>Birthdate<span class="error">*</span></label>
-								<flat-pickr class="form-control" name="birthday" v-model="personalinfoData.birthday"
-									
-									v-validate="'date_format:YYYY-MM-DD'"/>
+								<flat-pickr class="form-control" name="birthday" v-model="personalinfoData.birthday" v-validate="'date_format:YYYY-MM-DD'"/>
 									<span v-show="errors.has('birthday')" class="help-block form-error">{{ errors.first('birthday') }}</span>
 									<span v-show="hasSSerror" class="help-block form-error">{{ ssError }}</span>
 							</div>
@@ -36,7 +34,7 @@
 						<div class="col-sm-12">
                             <div class="form-group" :class="{'has-error': errors.has('phone_number') || hasSSerror }">
                                 <label>Phone Number<span class="error">*</span></label>
-                                <textarea v-validate="'required|numeric'" name="phone_number" class="form-control" v-model="personalinfoData.phone_number"></textarea>
+                                <input type="text" v-validate="'required|numeric'" name="phone_number" class="form-control" v-model="personalinfoData.phone_number" />
 								<span v-show="errors.has('phone_number')" class="help-block form-error">{{ errors.first('phone_number') }}</span>
                                 <span v-show="hasSSerror" class="help-block form-error">{{ ssError }}</span>
                             </div>
@@ -44,7 +42,7 @@
                         <div class="col-sm-12">
                             <div class="form-group" :class="{'has-error': errors.has('email') || hasSSerror }">
                                 <label>Email Address<span class="error">*</span></label>
-                                <textarea v-validate="'required|email'" name="email" class="form-control" v-model="personalinfoData.email"></textarea>
+                                <input type="email" v-validate="'required|email'" name="email" class="form-control" v-model="personalinfoData.email" />
 								<span v-show="errors.has('email')" class="help-block form-error">{{ errors.first('email') }}</span>
                                 <span v-show="hasSSerror" class="help-block form-error">{{ ssError }}</span>
                             </div>
@@ -89,14 +87,21 @@
 	            manualInput : false,
 	            hasSSerror: false,
 	            ssError: null,
-	            personalinfoNameDBVal:''
+				personalinfoNameDBVal:'',
+				validation: [
+					{ path: 'name', name: 'name', rule: 'required', msg: {required: 'The name field is required'} },
+					{ path: 'address', name: 'address', rule: 'required', msg: {required: 'The address field is required'} },
+					{ path: 'birthday', name: 'birthday', rule: 'required', msg: {required: 'The birthday field is required'} },
+					{ path: 'phone_number', name: 'phone_number', rule: 'required', msg: {required: 'The phone_number field is required'} },
+					{ path: 'email', name: 'email', rule: 'required', msg: {required: 'The email is required'} },
+	            ],
 			}
 		},
 		computed: {
 			...mapGetters({
 				//personalinfo:'personalInfo/info',
 				meta:'personalInfo/meta',
-            	personalinfo: 'personalInfo/data'
+            	personalinfo: 'personalInfo/info'
 			}),
 			isValid() {
 				let valid = true;
@@ -118,19 +123,23 @@
 			}
 		},
 		async created() {
-			this.personalinfoData.id = this.info.info || 0;
-			this.personalinfoData.name = this.personalinfo.name || '';
-			this.personalinfoData.address = this.personalinfo.address || '';
-			this.personalinfoData.birthday = this.personalinfo.birthday || '';
-			this.personalinfoData.phone_number = this.personalinfo.phone_number || '';
-			this.personalinfoData.email = this.personalinfo.email || '';
-			this.personalinfoNameDBVal = this.personalinfo.name;
+			if (this.info.infoId) {
+				await this.fetchInfo(this.info.infoId).then(() => {
+					this.personalinfoData.id = this.info.infoId;
+					this.personalinfoData.name = this.personalinfo.name;
+					this.personalinfoData.address = this.personalinfo.address;
+					this.personalinfoData.birthday = this.personalinfo.birthday;
+					this.personalinfoData.phone_number = this.personalinfo.phone_number;
+					this.personalinfoData.email = this.personalinfo.email;	
+				});
+				
+			}
 		},
 		methods: {
 			...mapActions({
 				// actions.js
 				savePersonalInfo: 'personalInfo/savePersonalInfo',
-				fetchInfo: 'personalInfo/getPersonalInfo',
+				fetchInfo: 'personalInfo/getInfo',
                 searchPersonalInfo: 'personalInfo/searchPersonalInfo'
 			}),
 			async save() {

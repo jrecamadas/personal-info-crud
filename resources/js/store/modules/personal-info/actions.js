@@ -8,8 +8,6 @@ const getPersonalInfo = (context, payload) => {
     });
 };
 
-
-
 const savePersonalInfo = (context, payload) => {
     const id    = payload.id;
     const data  = {
@@ -32,11 +30,8 @@ const deletPersonalInfo = (context, id) => {
 };
 
 const getInfo = (context, id) => {
-    console.log(id,'getInfo DATA');
-    const personalInfo = new Personal_Info({id:id});
-    console.log(personalInfo,'personalInfo DATA');
-    return personalInfo.get({id:id}).then((res) => {
-        context.commit('GET_PERSONAL_INFO', res.data);
+    return Personal_Info.get({id:id}).then((res) => {
+        context.commit('EDIT_PERSONAL_INFO', {data: res.data});
     }).catch((e) => {
         throw new Error('Can\'t find Information!');
     })

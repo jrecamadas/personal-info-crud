@@ -14,7 +14,7 @@ const PERSONAL_INFO_UPDATED = (state, payload) => {
     });
 }
 const EDIT_PERSONAL_INFO = (state, payload) => {
-    state.skill = payload.data
+    state.info = payload.data
 }
 
 const DELETE_PERSONAL_INFO = (state) => {}
