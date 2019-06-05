@@ -24,7 +24,7 @@ class PersonalInformationController extends BaseController
         if ($request->get('search')) {
             $this->repository->pushCriteria(new SearchInfo($request->get('search')));
         }
-
+        //try lang
         if($request->get('name') && $request->get('withTrashed')) {
             $this->repository->pushCriteria(new WithTrashed());
             $this->repository->pushCriteria(new SearchExactInfo($request->get('name')));
