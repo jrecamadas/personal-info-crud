@@ -93,8 +93,10 @@
 					{ path: 'address', name: 'address', rule: 'required', msg: {required: 'The address field is required'} },
 					{ path: 'birthday', name: 'birthday', rule: 'required', msg: {required: 'The birthday field is required'} },
 					{ path: 'phone_number', name: 'phone_number', rule: 'required', msg: {required: 'The phone_number field is required'} },
-					{ path: 'email', name: 'email', rule: 'required', msg: {required: 'The email is required'} },
-	            ],
+					{ path: 'email', name: 'email', rule: 'required|email', msg: {required: 'The email is required'} },
+				],
+				email_regex: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,24}))$/
+				
 			}
 		},
 		computed: {
@@ -115,8 +117,11 @@
 	                            return;
 	                        }
 	                    }
-	                });
-
+					});
+					if(this.personalinfoData.phone_number.length != 11 || this.personalinfoData.phone_number.length > 11){ valid = false; } 
+					if(this.personalinfoData.email == '' || !this.email_regex.test(this.personalinfoData.email)){ valid = false; }
+					if(this.personalinfoData.name.length < 3){ valid = false; }
+					if(this.personalinfoData.address.length < 4){ valid = false; }
 	                if (!valid) return;
 				})
 				return valid;

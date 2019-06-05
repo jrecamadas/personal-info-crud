@@ -1,7 +1,6 @@
 import { Skill } from '@common/model/Skill';
 
 const getSkills = (context, payload) => {
-    console.log(payload,'payload DATA');
     return Skill.get(payload.query).then((res) => {
         context.commit('CLEAR_STATES');
         context.commit('SKILLS_UPDATED', {data: res.data, extra: payload.extra});

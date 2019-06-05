@@ -9,11 +9,6 @@
                             <div class="col-sm-12 col-md-7">
 								<div>
 									<button squared variant="outline-secondary" @click="openPersonalModal({key: 'create-update-personalinfo', name: 'Add New Info'})" tag="button" class="btn btn-primary">Add New Info</button>
-									<!-- <Can I="add" a="personalinfo">
-										<div class="dataTable_buttons">
-											<button type="button" @click="openPersonalModal({key: 'create-update-personalinfo', name: 'Add New Info'})" tag="button" class="btn btn-primary">Add New Info</button>
-										</div>
-									</Can> -->
 								</div>
 								<label>&nbsp;</label>
                             </div>
@@ -40,7 +35,7 @@
 										<td>{{ info.name }}</td>
 										<td>{{ info.address }}</td>
 										<td>{{ info.birthday }}</td>
-										<td>{{ info.phone_number }}</td>
+										<td>{{ '0' + info.phone_number }}</td>
 										<td>{{ info.email }}</td>
 
 										<td align="center">

@@ -19,7 +19,6 @@ const savePersonalInfo = (context, payload) => {
     };
     const personalInfo = (id != "" && id > 0) ? new Personal_Info({id:id}) : new Personal_Info();
     return personalInfo.save(data);
-
 };
 
 const deletPersonalInfo = (context, id) => {
