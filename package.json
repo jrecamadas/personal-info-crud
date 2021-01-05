@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@johmun/vue-tags-input": "^1.6.0",
-    "axios": "^0.18",
+    "axios": "^0.21",
     "babel-eslint": "^10.0.1",
     "bootstrap": "^4.0.0",
     "browser-sync": "^2.26.5",
