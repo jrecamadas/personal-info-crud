@@ -48,7 +48,7 @@
     "@casl/vue": "^0.5.1",
     "izimodal": "^1.5.1",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.25",
+    "moment-timezone": "^0.5.35",
     "simplebar": "^4.0.0-alpha.5",
     "vue-avatar-editor-improved": "^1.0.4",
     "vue-carousel": "^0.18.0",
